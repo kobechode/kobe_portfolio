@@ -21,6 +21,157 @@ a {
   padding: 0 1.5rem;
 }
 
+.skills {
+  background-color: #2b2b2b;
+}
+.skills h2 {
+  color: #58ff7d;
+  text-align: center;
+  font-size: 2rem;
+}
+.skills__content {
+  display: flex;
+  justify-content: space-between;
+}
+.skills__content .photoleft {
+  margin-top: 5rem;
+}
+.skills__content .photoright {
+  margin-top: 5rem;
+}
+.personal {
+  padding: 12rem 0;
+  background-color: #080808;
+}
+.personal h1 {
+  color: #58ff7d;
+  font-size: 3rem;
+}
+.personal__wrapper {
+  display: flex;
+  align-items: center;
+}
+.personal__wrapper img {
+  width: 23rem;
+  margin-left: 13rem;
+  margin-bottom: 13rem;
+}
+.personal__content .links {
+  margin-left: 1rem;
+}
+.personal__content .links ul {
+  display: flex;
+  gap: 1rem;
+}
+.personal__content .links ul li i {
+  color: #58ff7d;
+  font-size: 2rem;
+  margin-left: 3rem;
+}
+
+.Hobbies {
+  padding: 6rem 0;
+}
+.Hobbies h1 {
+  color: #58ff7d;
+  font-size: 3rem;
+}
+.Hobbies__wrapper .lorem {
+  color: #58ff7d;
+}
+.Hobbies__wrapper .likes ul {
+  margin-left: 17rem;
+  display: flex;
+  gap: 5rem;
+}
+.Hobbies__wrapper .likes ul :nth-child(2) img {
+  margin-top: 0.5rem;
+}
+.Hobbies__wrapper .likes ul :nth-child(2) p {
+  margin-top: 1.5rem;
+}
+.Hobbies__wrapper .likes ul :nth-child(4) img {
+  margin-top: -0.5rem;
+  margin-bottom: 2.5rem;
+  width: 6rem;
+}
+.Hobbies__wrapper .likes ul :nth-child(4) p {
+  margin-top: -1.5rem;
+}
+.Hobbies__wrapper .likes ul li :nth-child(2) {
+  color: #f2f2f2;
+}
+
+.education {
+  padding: 4rem 0;
+}
+.education h1 {
+  font-size: 3rem;
+  color: #58ff7d;
+}
+.education__wrapper ul {
+  display: flex;
+  gap: 10rem;
+}
+.education__wrapper ul :nth-child(3) img {
+  width: 17rem;
+  margin-top: -0.8rem;
+}
+.education__wrapper ul :nth-child(1) img {
+  width: 19rem;
+  height: 17rem;
+  margin-top: -0.8rem;
+}
+.education__wrapper ul :nth-child(2) {
+  width: 17rem;
+  height: 17rem;
+}
+.education__wrapper ul p {
+  color: #f2f2f2;
+}
+
+.certificate {
+  padding: 4rem 0;
+}
+.certificate h1 {
+  color: #58ff7d;
+  font-size: 3rem;
+}
+.certificate__wrapper ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  line-height: 2rem;
+  gap: 3rem;
+}
+.certificate__wrapper p {
+  color: #f2f2f2;
+}
+
+.footer {
+  background: #1b1b1b;
+  color: var(--gray);
+  padding: 3rem 0;
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f2f2f2;
+}
+.footer__wrapper ul {
+  list-style: none;
+  display: flex;
+  gap: 0.8rem;
+}
+.footer__wrapper ul li a i {
+  font-size: 1.5rem;
+  color: #f2f2f2;
+}
+.footer__wrapper .links {
+  display: flex;
+  gap: 1rem;
+}
+
 .header {
   padding: 3rem 0;
   background: #080808;
