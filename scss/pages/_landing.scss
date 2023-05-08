@@ -2,32 +2,7 @@
 //------------Home.section------------------//
 
 
-.header{
-    padding: 3rem 0;
-    background:$clr-black;
 
-   
-      .nav ul{
-
-        display: flex;
-        gap: 2rem;
-        color: $clr-primary;
-      
-
-      }
-
-      .nav ul a{
-        color: $clr-gray;
-      
-
-      }
-      .nav ul a.active{
-        color: $clr-primary;
-      
-
-      }
-
-}
 
 .banner{
     background:$clr-black;
@@ -41,9 +16,21 @@
     align-items: center;
     }
 
+    &__logo{
+     
+  img{
+
+   gap: 100rem;
+  }
+      
+  
+    }
+
     img{
-      margin-left: 12rem;
-      margin-bottom: 4rem;
+      
+      margin-bottom: 7rem;
+    
+   
       }
 
       h1{
@@ -65,12 +52,21 @@
        
      color: $clr-white;
      text-decoration: none;
-     background-color: $clr-primary;
-     padding: 0.8rem 2rem;
+     background:$clr-green;
+    
+     padding: 0.8rem 4rem;
      display: inline-block;
-     border-radius: 5rem;
+     border-radius: 0rem;
+     border: 1px solid #62BA1B;
      text-transform: uppercase;
      color: $clr-black;
+     box-shadow: 0px 8px 13px rgba(138, 233, 60, 0.5);
+     &:hover{
+
+      background-color: $clr-blue;
+      border: 1px solid #2AB090;
+      box-shadow: 0px 8px 30px rgba(29, 187, 250, 0.5);
+     }
       }
 
       &__content{
@@ -130,7 +126,14 @@
            grid-template-columns: 1fr 1fr 1fr;
            grid-gap: 3rem;
        
+           img{
 
+            &:hover{
+
+              color: $clr-yellow;
+            }
+           }
+        
          }
 
 }
@@ -157,8 +160,8 @@
 
         img{
 
-            width: 20rem;
-            margin-top: 3rem;
+            width: 23rem;
+            margin-top: -2rem;
         }
     }
 
@@ -178,15 +181,25 @@
 
         a{
             
-            color: $clr-white;
+            
             text-decoration: none;
-            background-color: $clr-primary;
+            background:$clr-green;
             padding: 0.8rem 2rem;
             display: inline-block;
-            border-radius: 5rem;
-            text-transform: uppercase;
+            border-radius: 0rem;
+           
             color: $clr-black;
             margin-left: 26rem;
+            border: 1px solid #62BA1B;
+            box-shadow: 0px 8px 13px rgba(138, 233, 60, 0.5);
+
+            &:hover{
+                
+              background-color: $clr-blue;
+              border: 1px solid #2AB090;
+              box-shadow: 0px 8px 30px rgba(29, 187, 250, 0.5);
+             
+            }
 
         }
     }
@@ -197,44 +210,7 @@
 
 }
 
-.footer{
-    background:$clr-dark;
-    color: var(--gray);
-    padding: 3rem 0 ;
-    
-
-
-    &__wrapper{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color: $clr-white;
-     
-
-        ul{
-            list-style: none;
-            display: flex;
-            gap: 0.8rem;
-         
-
-        }
-        ul li a i{
-   
-         font-size: 1.5rem;
-         color: $clr-white;
-      }
-
-      .links{
-
-        display: flex;
-        gap: 1rem;
-      
-        
-      }
-     
-    }
-     
-    }      
+ 
    
      //----------------------------------------//
      //----------Home page Ends Here-----------//

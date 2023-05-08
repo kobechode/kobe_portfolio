@@ -250,41 +250,4 @@ h1{
   
 }
 
-.footer{
-    background:$clr-dark;
-    color: var(--gray);
-    padding: 3rem 0 ;
-    
-
-
-    &__wrapper{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color: $clr-white;
-     
-
-        ul{
-            list-style: none;
-            display: flex;
-            gap: 0.8rem;
-         
-
-        }
-        ul li a i{
-   
-         font-size: 1.5rem;
-         color: $clr-white;
-      }
-
-      .links{
-
-        display: flex;
-        gap: 1rem;
-      
-        
-      }
-     
-    }
-     
-    }  
+ 

@@ -1,0 +1,37 @@
+.header{
+    padding: 3rem 0;
+    background:$clr-black;
+
+   
+      .nav ul{
+
+        display: flex;
+        gap: 2rem;
+        color: $clr-primary;
+      
+
+      }
+
+      .nav ul a  {
+        color: $clr-gray;
+
+        &:hover{
+
+            color: $clr-primary;
+        }
+      
+
+      }
+
+      
+
+
+
+
+      .nav ul a.active{
+        color: $clr-primary;
+      
+
+      }
+
+}
