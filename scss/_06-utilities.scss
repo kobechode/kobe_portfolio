@@ -84,3 +84,17 @@ $alignments: (
       margin-bottom: $i + rem;
     }
   }
+
+  @for $i from 1 through 10 {
+    .gp--#{$i} {
+      gap: $i + rem;
+    }
+  }
+
+
+
+  @for $i from 1 through 10 {
+    .mr--#{$i} {
+      margin-right: $i + rem;
+    }
+  }
